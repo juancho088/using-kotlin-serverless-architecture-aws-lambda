@@ -53,6 +53,6 @@ Also, by default the function names will start with capitalize letter.
 
 To invoke custom event.json files you can execute the next command:
 
-``
+```
 $ sam local invoke Hello -e src/main/resources/event.json
-``
+```
