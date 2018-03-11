@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cc5efd-9588-432a-b856-262c38969d0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/com.myblockbuster.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/com.myblockbuster_main.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/com.myblockbuster_test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/helloEvent.json" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my_blockbuster.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my_blockbuster_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/my_blockbuster_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/serverless.yml" afterPath="$PROJECT_DIR$/serverless.yml" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="66cc5efd-9588-432a-b856-262c38969d0a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -754,12 +737,12 @@
       <workItem from="1520282993073" duration="1591000" />
       <workItem from="1520601876452" duration="2188000" />
       <workItem from="1520791005737" duration="155000" />
-      <workItem from="1520791366035" duration="3249000" />
+      <workItem from="1520791366035" duration="3278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7183000" />
+    <option name="totallyTimeSpent" value="7212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
