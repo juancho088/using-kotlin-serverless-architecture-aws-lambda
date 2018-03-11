@@ -22,6 +22,8 @@ provider:
   runtime: java8
   stage: dev
   region: eu-west-1
+  memorySize: 1024
+  timeout: 10
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
