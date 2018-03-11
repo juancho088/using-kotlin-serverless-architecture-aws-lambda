@@ -1,5 +1,5 @@
 # Using Kotlin in a Serverless Architecture with AWS Lambda
-Complete code per chapter for the complete my complete article in medium https://medium.com/@juancho088/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4
+Complete code per article for the complete series in medium https://medium.com/@juancho088/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4
 
 # First Steps
 

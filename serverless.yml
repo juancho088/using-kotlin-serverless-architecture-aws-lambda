@@ -45,7 +45,7 @@ provider:
 
 # you can add packaging information here
 package:
-  artifact: build/libs/my_blockbuster-dev-all.jar
+  artifact: build/libs/com.myblockbuster-dev-all.jar
 
 functions:
   hello:
