@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="com.myblockbuster_main" target="1.5" />
+      <module name="com.myblockbuster_test" target="1.5" />
       <module name="hello_main" target="1.5" />
       <module name="hello_test" target="1.5" />
       <module name="my_blockbuster_main" target="1.5" />

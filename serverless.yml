@@ -46,7 +46,8 @@ provider:
 # you can add packaging information here
 package:
   artifact: build/libs/com.myblockbuster-dev-all.jar
-
+plugins:
+  - serverless-sam
 functions:
   hello:
     handler: com.myblockbuster.Handler
