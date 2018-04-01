@@ -55,6 +55,25 @@ dependencies {
   compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version:'2.8.5'
 }
 
-task deploy(type: Exec, dependsOn: 'shadowJar') {
-  commandLine 'serverless', 'deploy'
+shadowJar {
+    zip64 true
+}
+
+/*
+task myZip(type: Zip) {
+    archiveName "com.myblockbuster-${version}-all.zip"
+    destinationDir(file('build/libs/'))
+}
+*/
+
+task buildZip(type: Zip, dependsOn: shadowJar) {
+    from 'build/libs/'
+    include '*-all.jar'
+    archiveName "com.myblockbuster-${version}-all.zip"
+    destinationDir(file('build/libs/'))
+
+}
+
+task deploy(type: Exec, dependsOn: 'buildZip') {
+    commandLine 'serverless', 'deploy'
 }

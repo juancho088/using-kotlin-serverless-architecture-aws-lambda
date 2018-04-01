@@ -13,7 +13,62 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/node_modules/serverless-sam/lib/FunctionConverter.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/node_modules/serverless-sam/lib/sam/SamBuilder.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/serverless.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/src/main/kotlin/org/petpets/backend/core/persistence/ModelRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/src/main/kotlin/org/petpets/backend/posts/repositories/PostRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/src/test/resources/eventPost.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../PetPet/petpets-be/template.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.serverless/cloudformation-template-update-stack.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.serverless/serverless-state.json">
           <value>
             <set />
           </value>
@@ -24,6 +79,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/node_modules/serverless-sam/lib/FunctionConverter.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package-lock.json">
           <value>
             <set />
           </value>
@@ -54,6 +119,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/helloEvent.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/eventMovieGET.json">
           <value>
             <set />
           </value>

@@ -80,3 +80,14 @@ typings/
 
 # next.js build output
 .next
+
+# Exclude Test logs
+test.log
+apt-cyg
+outfile
+
+# Exclude IntelliJ files
+.idea
+
+# Exclude .localstack folder
+.localstack

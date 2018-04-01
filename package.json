@@ -2,6 +2,7 @@
   "name": "my-blockbuster",
   "version": "1.0.0",
   "devDependencies": {
+    "serverless-localstack": "^0.2.3",
     "serverless-sam": "0.0.4"
   }
 }
