@@ -1,3 +1,3 @@
 package com.myblockbuster
 
-open class Response()
+interface Response
