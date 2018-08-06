@@ -13,12 +13,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/main/java/com/travelstart/api/client/RestClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/main/java/com/travelstart/api/client/v1/loco/LocoWebTranslationsClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/test/java/com/travelstart/api/client/v1/LocoWebTranslationsApiClientTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/test/java/com/travelstart/api/client/v1/LocoWebTranslationsRefreshApiClientTest.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/test/java/com/travelstart/api/client/v1/MockServerMixin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/api-client/src/test/java/com/travelstart/api/client/v1/PaymentApiClientTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Travelstart/travelstart/backend/payment-amadeus/src/main/java/com/travelstart/payment/amadeus/AmadeusPaymentMessageProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/ts-github-hook/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/ts-payment-api/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Travelstart/ts-payment-api/gateway/amadeus/src/main/java/com/travelstart/payment/gateway/amadeus/converters/TSPaymentPreAuthConverter.java">
           <value>
             <set />
           </value>

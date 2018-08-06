@@ -1,0 +1,36 @@
+routes:
+  # =========================
+  # Movies Microservice
+  # =========================
+
+  - regex: '^/movie(/*+)?$'
+    cls: com.myblockbuster.movies.controllers.MovieController
+    func: movie
+
+  # =========================
+  # User Microservice
+  # =========================
+
+  - regex: '^/login(/)?$'
+    cls: com.myblockbuster.users.controllers.UserController
+    func: login
+  - regex: '^/logout(/)?$'
+    cls: com.myblockbuster.users.controllers.UserController
+    func: logout
+  - regex: '^/signup(/)?$'
+    cls: com.myblockbuster.users.controllers.UserController
+    func: signup
+
+  # =========================
+  # Geolocation Microservice
+  # =========================
+
+  - regex: '^/location/country(/*+)?$'
+    cls: com.myblockbuster.geolocation.controllers.LocationController
+    func: country
+  - regex: '^/location/region(/*+)?$'
+    cls: com.myblockbuster.geolocation.controllers.LocationController
+    func: region
+  - regex: '^/location/city(/*+)?$'
+    cls: com.myblockbuster.geolocation.controllers.LocationController
+    func: region

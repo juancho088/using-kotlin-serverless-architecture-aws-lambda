@@ -15,24 +15,35 @@ tasks.withType(JavaCompile) {
 
 buildscript {
   repositories {
-    mavenCentral()
-    maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
   }
   dependencies {
-      classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.21'
-    classpath "io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE"
-    classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1"
-    classpath "de.sebastianboegl.gradle.plugins:shadow-log4j-transformer:2.1.1"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.21'
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE"
+        classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1"
+        classpath "de.sebastianboegl.gradle.plugins:shadow-log4j-transformer:2.1.1"
   }
 }
 
 apply plugin: 'kotlin'
+apply plugin: 'org.junit.platform.gradle.plugin'
 apply plugin: "io.spring.dependency-management"
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: "de.sebastianboegl.shadow.transformer.log4j"
 
+junitPlatform {
+    filters {
+        engines {
+            include 'spek'
+        }
+    }
+}
+
 repositories {
-  maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "http://dl.bintray.com/jetbrains/spek" }
 }
 
 // If requiring AWS JDK, uncomment the dependencyManagement to use the bill of materials
@@ -47,14 +58,21 @@ dependencies {
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: '1.2.21'
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.1.1'
 
-  compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version:'1.1.0'
-  compile group: 'com.amazonaws', name: 'aws-lambda-java-log4j2', version:'1.0.0'
-  compile group: 'com.amazonaws', name: 'aws-lambda-java-events', version:'2.0.1'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version:'1.1.0'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-log4j2', version:'1.0.0'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-events', version:'2.0.1'
 
-  compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version:'2.8.5'
-  compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version:'2.8.5'
-  compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version:'2.8.5'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version:'2.8.5'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version:'2.8.5'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version:'2.8.5'
     compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.1.2'
+
+    testCompile 'org.mockito:mockito-core:2.+'
+    testCompile 'com.nhaarman:mockito-kotlin:1.5+'
+    testCompile 'org.jetbrains.spek:spek-api:1.1.5'
+    testCompile 'org.junit.platform:junit-platform-runner:1.0.0'
+
+    testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.5'
 }
 
 shadowJar {
